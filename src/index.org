@@ -1,5 +1,4 @@
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./style/main.css" />
 
 * Some Crap
 ** TODO some shit
@@ -13,3 +12,4 @@ jdfskljfkjfdjlds fdjslsljfsflfld aldsdlaldsa
 | exports   |  m         |                                   |
 * Some Other Crap
 [[file:someshit.org][suckit - someshit]]
+* Crap the third
