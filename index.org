@@ -1,3 +1,12 @@
 * Some Crap
+** TODO some shit
+** 
+*** nested!!!
+jdfskljfkjfdjlds fdjslsljfsflfld aldsdlaldsa
+| table     | something | someotherthing                    |
+|-----------+-----------+-----------------------------------|
+| aldjsa    |           | djsakd                            |
+| jkdsajdsa |           | dsjakdsaldsadsadasdsadasdsadadsad |
+| exports   |            |                                   |
 * Some Other Crap
 [[file:someshit.org][suckit - someshit]]
