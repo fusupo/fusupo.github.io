@@ -1,15 +1,2 @@
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./style/main.css" />
-
-* Some Crap
-** TODO some shit
-** 
-*** nested!!!
-jdfskljfkjfdjlds fdjslsljfsflfld aldsdlaldsa
-| table     | something | someotherthing                    |
-|-----------+-----------+-----------------------------------|
-| aldjsa    |           | djsakd                            |
-| jkdsajdsa |           | dsjakdsaldsadsadasdsadasdsadadsad |
-| exports   |  m         |                                   |
-* Some Other Crap
-[[file:someshit.org][suckit - someshit]]
-* Crap the third
+* suckiljljt
+* oedits smore
