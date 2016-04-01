@@ -1,3 +1,5 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style1.css" />
+#+HTML_HEAD_EXTRA: <link rel="alternate stylesheet" type="text/css" href="style2.css" />
 * Some Crap
 ** TODO some shit
 ** 
@@ -7,6 +9,6 @@ jdfskljfkjfdjlds fdjslsljfsflfld aldsdlaldsa
 |-----------+-----------+-----------------------------------|
 | aldjsa    |           | djsakd                            |
 | jkdsajdsa |           | dsjakdsaldsadsadasdsadasdsadadsad |
-| exports   |            |                                   |
+| exports   |  m         |                                   |
 * Some Other Crap
 [[file:someshit.org][suckit - someshit]]
