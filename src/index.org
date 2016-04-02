@@ -1,9 +1,6 @@
-* [[file:posts/posta.org][POST A]] 
-afdsaf dsadfsadfs adfs adfsadfs afds
+* [[file:posts/posta.org][POST A]] [2016-04-02 Sat]
 * [[file:posts/postb.org][POST B]] 
-fads fsad fads dfsaadfs fads adfs fdsadfs adfs fads adfs adfs fsdafsfds
-** fdadfafdasfdsa fdsafdasfdsafd
-** fdafds fdsafds
-*** fdsfafdasfds
-* some other unit
-* yet another unit
+* TODO
+** dsadasdsadsak
+ajdskl
+dhj
