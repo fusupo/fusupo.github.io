@@ -1,6 +1,7 @@
-* [[file:posts/posta.org][POST A]] [2016-04-02 Sat]
-* [[file:posts/postb.org][POST B]] 
-* TODO
-** dsadasdsadsak
-ajdskl
-dhj
+#+TITLE: index
+
+ tristique imperdiet tortor.  Sed bibendum.  Nullam tristique diam non turpis.  
+
+- [2016-04-02 Sat] [[file:posts/posta.org][POST A]] 
+- [2016-04-03 Sun] [[file:posts/postb.org][POST B]]
+
