@@ -38,3 +38,8 @@ p {
 #content {
     margin-bottom: 20px;
 }
+
+.post-list .timestamp-wrapper{
+    float: right;
+    margin-right: 30px;
+}

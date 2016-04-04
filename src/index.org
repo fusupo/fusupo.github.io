@@ -1,7 +1,11 @@
 #+TITLE: index
 
- tristique imperdiet tortor.  Sed bibendum.  Nullam tristique diam non turpis.  
-
-- [2016-04-02 Sat] [[file:posts/posta.org][POST A]] 
-- [2016-04-03 Sun] [[file:posts/postb.org][POST B]]
+Fooj tristique imperdiet tortor.  Sed bibendum.  Nullam tristique diam non turpis.  
+-----
+* 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: post-list
+:END:
+- [[file:posts/postb.org][Emacs - Still the one]] [2016-04-03 Sun] 
+- [[file:posts/posta.org][Gellish English]] [2016-04-02 Sat]
 

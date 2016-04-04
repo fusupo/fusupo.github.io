@@ -48,4 +48,23 @@
   addClass(content, middle);
   addClass(postamble, middle);
 
+  //////////////////////////////////////////////////////////////////////////////
+
+  var formatTimestamps = function(selector, format){
+    var titleTimestamps = document.querySelectorAll(selector);
+    if (titleTimestamps.length > 0) {
+      Array.prototype.forEach.call(titleTimestamps, function(el, i){
+        var dateStr = el.innerHTML;
+        dateStr = dateStr.substr(1, dateStr.length - 2);
+        var mom = moment(dateStr, 'YYYY-MM-DD ddd'); 
+        el.innerHTML = mom.format(format);
+      });
+    }
+  }
+
+  formatTimestamps('.title .timestamp', 'MMMM Do YYYY');
+  formatTimestamps('.post-list .timestamp', 'MMM DD');
+
+  //////////////////////////////////////////////////////////////////////////////
+
 })();
