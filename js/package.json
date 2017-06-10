@@ -1,0 +1,20 @@
+{
+  "name": "fusupo-github-io",
+  "version": "1.0.0",
+  "description": "fusupo's github.io javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel --presets es2015 ./main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack --watch"
+  },
+  "author": "Marc Christophe",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^2.6.1"
+  }
+}

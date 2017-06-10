@@ -14,6 +14,7 @@ p {
 
 #preamble {
     margin-top: 20px;
+    display: none;
 }
 
 #preamble #header{
@@ -37,9 +38,14 @@ p {
 
 #content {
     margin-bottom: 20px;
+    display: none;
 }
 
 .post-list .timestamp-wrapper{
     float: right;
     margin-right: 30px;
+}
+
+#postamble {
+    display: none;
 }
