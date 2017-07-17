@@ -1,13 +1,7 @@
 #+TITLE: index
-
-RAnti-Foorm
------
 * 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: post-list
 :END:
-- [[file:posts/postb.org][one]] [2016-08-25 Thu] 
+ - [[file:posts/posta.org][one]] [2016-08-25 Thu] 
 - [[file:posts/postb.org][Emacs - Still the one]] [2016-04-03 Sun] 
-- [[file:posts/posta.org][Gellish English]] [2016-04-02 Sat]
-- [[file:posts/untitled.org][Gellish Krunk]] [2016-08-30 Tue] 
-

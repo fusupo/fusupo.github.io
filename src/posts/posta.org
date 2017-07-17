@@ -14,7 +14,7 @@ Nullam tristique diam non turpis. Cras placerat accumsan nulla. Nullam rutrum.
 Nam vestibulum accumsan nisl.
 
 
-* post A sucka*h
+* post A
 Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel
 tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac
 leo mollis blandit. Donec neque quam, dignissim in, mollis nec, sagittis eu,

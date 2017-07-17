@@ -5,16 +5,16 @@ gravida ut, lobortis eget, lacus. Sed diam. Praesent fermentum tempor tellus.
 Nullam tempus. Mauris ac felis vel velit tristique imperdiet. Donec at pede.
 Etiam vel neque nec dui dignissim bibendum. Vivamus id enim. Phasellus neque
 orci, porta a, aliquet quis, semper a, massa. Phasellus purus. Pellentesque
-tristique imperdiet tortor. Nam euismod tellus id erat.
+tristique imperdiet tortor.
 
-* POST B NUCKAH
+* POST B
 martian whoah!!
 ancient cities
 
 egypt
 animated sleep
 sandwich and soup
-* TODO someshit
+* TODO something
 * Journey to the stars
 _Pellentesque_ +dapibus+ /suscipit ligula./ Donec posuere augue in quam. Etiam
 vel tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem

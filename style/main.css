@@ -15,10 +15,31 @@ p {
 #preamble {
     margin-top: 20px;
     display: none;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 10px;
+    width:100%;
 }
 
-#preamble #header{
+#header.lrg {
     text-align: center;
+}
+
+#header.lrg h4{
+    font-weight: 100;
+    color: #999999;
+}
+
+#header.sml {
+    text-align: right;
+}
+
+#header.sml div{
+    font-weight: 800;
+}
+
+#header.sml div#subtitle{
+    font-weight: 100;
+    color: #999999;
 }
 
 .title {
@@ -34,11 +55,14 @@ p {
 .title .timestamp{
     font-weight: lighter;
     font-size: 18px;
+    color: #999999;
 }
 
 #content {
+    margin-top: 20px;
     margin-bottom: 20px;
     display: none;
+    min-height: calc(100vh - 120px - 130px);
 }
 
 .post-list .timestamp-wrapper{
