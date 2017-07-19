@@ -1,7 +1,13 @@
 #+TITLE: index
-* 
+* Projects 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: project-list
+:END:
+- [[file:projects/mobile-org-too.org][MobileOrgToo]] [2016-08-25 Thu] 
+
+* Posts
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: post-list
 :END:
- - [[file:posts/posta.org][one]] [2016-08-25 Thu] 
+- [[file:posts/posta.org][one]] [2016-08-25 Thu] 
 - [[file:posts/postb.org][Emacs - Still the one]] [2016-04-03 Sun] 
