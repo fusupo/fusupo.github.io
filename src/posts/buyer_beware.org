@@ -1,0 +1,153 @@
+#+TITLE: Buyer Beware [2017-08-04 Fri] 
+
+** TL;DR
+/somecrapo/
+
+---------
+
+Back in the day, when I aspired to become an artist/animator I embraced and
+devoted myself to a process of questioning and ultimately disintegrating
+critical aspects of my relationship with the popular culture. It remains to be
+seen wether or not this was a mistake but as a result I harbor some seemingly
+unconventional ideas about where we are and where we're going as a society. It's
+not uncommon that I might find myself labeled a contrarian by some individual or
+another but those who know me understand I invest a significant amount of
+calories in forming my own opinions. Part of the challenge in my endeavor to
+take this step into a technical blog is to keep it technical. I'm an 'as above,
+so below' kind of guy. My personal philosophy includes the concept that reality
+is a contiguous space and that most of our alnguage and systems of thought are a
+mechanism of arbitrarrilr categorization designed to help create an abstract
+mental model through which we engage with the world. Critically for myself and
+for western society (at leadt) I beleibe we'be yet to fully embrace the
+responsibility or implications of our ability to cleave this spave into an
+undertandable environment. Without furher belaboring of the poinr it is my
+opinion that the motivation, creation, and distribution of software in this
+current industrial landscape is worfully devoid of fundamental ethical or
+philosophical consideration.
+
+This is, like, a real proble,. Aproblem in that, to my reckoning, there are few
+if any _real_ values driving the innovation other than the excitement we as
+programmers and consumers experience with novelty, ovelapping with the provit
+motive. A lot of marketing terms and buzzwords are meployed to justify the
+creation and usefulness of some of our moire popular comsu,er technology
+offerings but not one of those employments is immune to deep critisms as it
+pertains to their impacts on individual lives, our collective provacy and safety
+with regards to the proliferation of personal information coupled with
+increasing advancements in the algorithmic processing thereof. We have
+envisioned the A.I. driven apocolypse to such resolution that som of todays most
+prolifiv thinskers are publicly concerned that we are on a path towards it's
+manifestation, yet we seem at a lose to prevent this fom happenong. Made to read
+the great distopic novels in High School but still as a group of [oft quite
+young] proffessionals seem to be lacking the breadth of perspective to recognize
+that we gave one foot squarely in the domain of a future of that type,
+presently.
+
+'Convenince' is a big thing in this regard. Indeed much of my critisism of
+current sociological trends stems from my observation of a divorve bewtween
+superficial emotional attachments we have with the terms we use and the manifest
+implications of the applications of these soft notions in the harder space of
+'concrete' reality. Systems desidned or touted as preconfigure integrations of
+hardware and sofware meant to unlock the consumers creativity ultimatly put them
+in a position of being held hostage within a coorporate ecosystem exposeinf them
+to extortion and to the homogonizstion of thought. Plastforms designe to connect
+us personally manifest to alienate and depress the individual. To spiral our
+conception of living into an outer space of self promotion of consumption,
+exess, self love, and indadequacy. A few years ago the obsessive buzzword in
+Silicon Valley was 'disruption'. Where that term is a distincly amoral
+descriptor of an affect we see a rise of technologies that hreaten the
+livelyghood of individuals in that arena of lifestyle that is the ovelap of our
+economic and phsycological lives (rise of the automotron).
+
+I get it, myself half subscribed to the popular story we tell ourselves about
+the ever forward progress of civilization it's unnavoidable that things will
+change and transitions are innately accompanied by feelings of discomfort as our
+perceptions readjust. Can't make an omlette...etc. But are we in fact master
+chefs carefully selecting and measuring our ingredients, masterfully transmuting
+them with tools and technique through an alchemical process to crteate the dish
+we indended to. Or are we more like unsupervised children tossing groceries
+against the wall and playing with a stove that could seriously burn us? Just cuz
+you break the eggs doesn't mean the omlette is going to come together.
+Especially if its difficult to create the mental image of the Omlette in the
+first place. There is a large degree of the current human activity that happens
+as a result of compulsion as opposed to deliberation.
+
+We loose something when delegate responsibility. For instance as I have (or have
+accepted to) offset the responsibility of food production to the farmer, at the
+time of thei writting I have only a loose conception of how long in takes an
+apple to form from flower to fruit. Indeed I've spent 3 decades without knowing
+how th eapple forms form the flower(hint: the secrets in that star shaped
+structure on it's south pole). Its a fact that men and women live full and
+'complete' lives withour any significant relationshiop to the natural mechanisms
+which aid the sustenance of that existence. With regards to mere survival, fine,
+so long as I'm close to civilization but I'm sure I would have a hard time in
+the wilderness if suddenly lost there tomorrow. There is a deeper issue though,
+and it's one of context for if I don't have a relationship with the natural
+process by which foodstuffs come into being than I lack some understand about
+myself and my place in the ecosystem, the world, and the universe.
+
+We are hard pursuing a path towards offsetting our material resoinsibilities on
+machines as much as we can. This has been part of the vision for sometime, a
+future where machines are handling all of our mundane bussiness leaving us to
+lives of liesure, or to pursue humanities true calling. However, the society
+that we are witnessing develop (and are ourselves developing) is not our of the
+pages of a Popular Mechanics magaxine for the 1930s for that one was wallowed to
+be a pure fantasy/unattached form its historical reality. What we have now is
+something different that is moored to the rules of reality(whatever those are)
+and can't be foumed oursid of the context of our modes of thought, our limited
+creativity, and selective application of ethics. Ther is a nd perhaps always has
+been a space between the producer and the concuper for dishonesty, moct
+deceifully on the part of the producer. Today we ar messing with forces which at
+ehe least have the power to fundamentally alter our perception of reality and at
+worse to destroy us in the horrible way that only some premenisced nightmare
+come to life can.
+
+Like many propl (I imagine most) I stareted my relatinship with computing in a
+state of total infatuation. For maybe decades what drove my further adventures
+ddeper and deepre into the jungles of algorithmic data transformation was mostly
+the novelty of it all. Insofar as I can love a thing inanimate and conceptual I
+love computer programming. I put it in the same supercategory as the visual arts
+or music, with all thos same cultural implecations. We tell oursleves that
+technology solves problems without recohnizing its hydra like nature; for every
+solution applied multiple other issues spring up. This is a rule. Nay, the
+technology isn't for problem solving bur for perspective framing. On the long
+timeline, we as a race of people will have to embrace and guard our natural
+mandate to deliberately define our perspective on reality and the terms under
+which we will and will refuse to address it under. As far as I can see our
+culture doesn't really have the ability to say 'we can do this but we choose not
+to'.
+
+This is a '.github.io' namespace and so further exposition should be focused on
+that which is appropriate to commit to version controll. Namely softeware, it's
+production, conceptualization, etc. I felt it necessary to give some background
+into my personal motivations in the arena of computer programming. To put it
+bluntly, fundamentally I could give a shit about React v. Angular (seemingly a
+closed debate at the moment), FP v. OOP, the absurd churning of the javascript
+ecosystem etc. I'm interested in novel applications, I think we need richer
+computing experiences but not necessarily 'intelligent' ones.
+ 
+---------
+Hello. Every new blog needs an introductory post so here is mine.
+
+What is my motivation?
+
+While I would like to keep the content of this volume of personal media more or
+less dry and technical, knowing myself I doubt this will be possible. Alas, I am
+a man filled with opinions, both technical and otherwise, many of which are
+unconventional.
+
+Herein I want to explore some of these ideas.
+
+I do alot of thinking aboput alot of stuff. That this is a '.github.io'
+namespace I'm going to try to keep my exposition of thoughts and experimentation
+within the domain of programming and computer science.  It won't be completely possible, however, as ...
+
+Jesus Christ! I don't know what I'm doing anymore!!!!!
+
+I'm stuck on alternate timeline. I view the Presidency of Donald Trump as
+further corroboration that someone went back in time and changed something.
+
+This is a '.github.io' namespace so I'll try to keep the discussion to that
+which is appropriate to keep in version control.
+
+There was a vision outlined by the likes of Busch and Kay and McArthy.
+
