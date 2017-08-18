@@ -1,13 +1,13 @@
-#+TITLE: index
+#+TITLE: fusupo.github.io
 * Projects 
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: project-list
+:HTML_CONTAINER_CLASS: post-list
 :END:
-- [[file:projects/mobile-org-too.org][MobileOrgToo]] [2016-08-25 Thu] 
+- [[file:projects/mobile-org-too.org][Mobile Org Too]] [2017-08-04 Fri] 
 
 * Posts
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: post-list
 :END:
-- [[file:posts/posta.org][one]] [2016-08-25 Thu] 
-- [[file:posts/postb.org][Emacs - Still the one]] [2016-04-03 Sun] 
+- [[file:posts/mobileorg-too.org][MobileOrg Too]] [2017-08-05 Sat]  
+- [[file:posts/buyer_beware.org][Buyer Beware]] [2017-08-04 Fri] 
