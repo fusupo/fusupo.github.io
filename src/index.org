@@ -1,13 +1,7 @@
 #+TITLE: fusupo.github.io
-* Projects 
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: post-list
-:END:
-- [[file:projects/mobile-org-too.org][Mobile Org Too]] [2017-08-04 Fri] 
 
 * Posts
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: post-list
 :END:
-- [[file:posts/mobileorg-too.org][MobileOrg Too]] [2017-08-05 Sat]  
 - [[file:posts/buyer_beware.org][Buyer Beware]] [2017-08-04 Fri] 
