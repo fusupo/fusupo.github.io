@@ -96,3 +96,49 @@ p {
 #footer p.small {
     color: #888;
 }
+
+.facebook-share{
+    width: 75px;
+    height: 28px;
+    background-color: #3C5A99;
+    color: white;
+    line-height: 26px;
+    display: inline-block;
+    white-space: ;
+    overflow: hidden;
+    text-align: left;
+    border-radius: 4px;
+    padding: 1px 10px 1px 9px;
+    outline: 0;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.facebook-share:hover{
+    color:white;
+    background-color:#263963;
+}
+.facebook-share .icon-facebook-rect {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: transparent 0 0 no-repeat url(../images/facebook-icon.svg);
+    /*     background-image: none; */
+    /* background: ; */
+    background-size: 18px 18px;
+}
+
+.facebook-share .text-facebook-rect {
+    margin-left: 4px;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 26px;
+    font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    position:relative;
+    top:4px;
+}
