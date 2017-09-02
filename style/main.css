@@ -73,3 +73,7 @@ p {
 #postamble {
     display: none;
 }
+
+#footer .small {
+    color: #888;
+}
