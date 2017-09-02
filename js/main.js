@@ -29,7 +29,7 @@ const nav_post = document.querySelector('#nav.nav-post');
 const header_sml = document.querySelector('#header.sml');
 
 const mainrow = mkDiv(['row']);
-const centerrow = mkDiv(['row']);
+const centerrow = mkDiv(['col']);
 // const postamblerow = mkDiv(['row']);
 // const contentrow = mkDiv(['row']);
 // const preamblerow = mkDiv(['row']);
@@ -64,8 +64,8 @@ centerrow.appendChild(postamble);
 
 addClass(centerrow, middle);
 
-nav_post && addClass(nav_post, ['col-md-2', 'col-sm-3']);
-header_sml && addClass(header_sml, ['col-md-10', 'col-sm-9']);
+// nav_post && addClass(nav_post, ['col-md-2', 'col-sm-3']);
+// header_sml && addClass(header_sml, ['col-md-10', 'col-sm-9']);
 
 //////////////////////////////////////////////////////////////////////////////
 
