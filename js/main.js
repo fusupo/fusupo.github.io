@@ -10,9 +10,9 @@ const mkDiv = cls => {
   return div;
 };
 
-const left = ['col-md-3', 'col-sm-2'];
-const middle = ['col-md-6', 'col-sm-8'];
-const right = ['col-md-3', 'col-sm-2'];
+const left = ['col-md-3', 'col-sm-2', 'col-xs-1'];
+const middle = ['col-md-6', 'col-sm-8', 'col-xs-10'];
+const right = ['col-md-3', 'col-sm-2', 'col-xs-1'];
 
 const container = mkDiv(['container-fluid']);
 
