@@ -2,6 +2,6 @@
 
 * Posts
   :PROPERTIES:
-:HTML_CONTAINER_CLASS: post-list
-:END:
+  :HTML_CONTAINER_CLASS: post-list
+  :END:
 - [[file:posts/buyer_beware.org][Buyer Beware]] [2017-08-04 Fri] 

@@ -93,6 +93,10 @@ p {
     display: none;
 }
 
+#footer {
+    padding-top: 10px;
+    border-top: 1px solid #EEEEEE;
+}
 #footer p.small {
     color: #888;
 }

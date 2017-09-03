@@ -10,9 +10,9 @@ const mkDiv = cls => {
   return div;
 };
 
-const left = ['col-md-3', 'col-sm-2', 'col-xs-1'];
-const middle = ['col-md-6', 'col-sm-8', 'col-xs-10'];
-const right = ['col-md-3', 'col-sm-2', 'col-xs-1'];
+const left = ['col-lg-4', 'col-md-3', 'col-sm-2', 'col-xs-1'];
+const middle = ['col-lg-4', 'col-md-6', 'col-sm-8', 'col-xs-10'];
+const right = ['col-lg-4', 'col-md-3', 'col-sm-2', 'col-xs-1'];
 
 const container = mkDiv(['container-fluid']);
 
@@ -87,7 +87,7 @@ const formatTimestamps = (selector, format) => {
 //////////////////////////////////////////////////////////////////////////////
 
 const randomSubtitile = () => {
-  const potentials = ['Guerra Todos', 'javascript, clojure, things between'];
+  const potentials = ['Guerra Total', 'javascript, clojure, things between'];
   const msg = potentials[Math.floor(Math.random() * potentials.length)];
   subtitle.innerHTML = msg;
 };
