@@ -10,9 +10,9 @@ const mkDiv = cls => {
   return div;
 };
 
-const left = ['col-md-3', 'col-sm-2'];
-const middle = ['col-md-6', 'col-sm-8'];
-const right = ['col-md-3', 'col-sm-2'];
+const left = ['col-lg-4', 'col-md-3', 'col-sm-2', 'col-xs-1'];
+const middle = ['col-lg-4', 'col-md-6', 'col-sm-8', 'col-xs-10'];
+const right = ['col-lg-4', 'col-md-3', 'col-sm-2', 'col-xs-1'];
 
 const container = mkDiv(['container-fluid']);
 
@@ -29,7 +29,7 @@ const nav_post = document.querySelector('#nav.nav-post');
 const header_sml = document.querySelector('#header.sml');
 
 const mainrow = mkDiv(['row']);
-const centerrow = mkDiv(['row']);
+const centerrow = mkDiv(['col']);
 // const postamblerow = mkDiv(['row']);
 // const contentrow = mkDiv(['row']);
 // const preamblerow = mkDiv(['row']);
@@ -64,8 +64,8 @@ centerrow.appendChild(postamble);
 
 addClass(centerrow, middle);
 
-nav_post && addClass(nav_post, ['col-md-2', 'col-sm-3']);
-header_sml && addClass(header_sml, ['col-md-10', 'col-sm-9']);
+// nav_post && addClass(nav_post, ['col-md-2', 'col-sm-3']);
+// header_sml && addClass(header_sml, ['col-md-10', 'col-sm-9']);
 
 //////////////////////////////////////////////////////////////////////////////
 
@@ -87,7 +87,7 @@ const formatTimestamps = (selector, format) => {
 //////////////////////////////////////////////////////////////////////////////
 
 const randomSubtitile = () => {
-  const potentials = ['Guerra Todos', 'javascript, clojure, things between'];
+  const potentials = ['Guerra Total', 'javascript, clojure, things between'];
   const msg = potentials[Math.floor(Math.random() * potentials.length)];
   subtitle.innerHTML = msg;
 };
