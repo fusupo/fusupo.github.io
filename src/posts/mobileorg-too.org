@@ -1,4 +1,4 @@
-#+TITLE: MobileOrg:Too [2017-08-04 Fri] 
+#+TITLE: MobileOrg:Too [2017-09-06 Wed] 
 
 Like any computer nerd worth his salt I have a healty preoccupation with
 productivity tools. A couple of years ago I proposed to emacs and emacs said
@@ -71,7 +71,7 @@ app will have loaded and parsed your inbox org entries. You can browse/edit/add
 org-entries on the leftmost tab, view and log-completed habits and agenda items
 on the second-from-left tab. Constructive feedback embraced.
 
-A lose list of current application features:
+A loose list of current application features:
 
 - Dropbox login
   - using WebView to hit Dropbox auth target url, not currently saving the auth
