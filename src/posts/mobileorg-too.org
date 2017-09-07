@@ -1,0 +1,130 @@
+#+TITLE: MobileOrg:Too [2017-08-04 Fri] 
+
+Like any computer nerd worth his salt I have a healty preoccupation with
+productivity tools. A couple of years ago I proposed to emacs and emacs said
+'yes'. We were married in the fall of 2015. How we met, after my years of
+disillusionment with my other prospects, how I fell in love and chose to commit
+is a story for another day. Suffice it to say that my ongoing short-medium term
+goal is to continue to place as much of my personal computing experience as I
+can (and is practical) into emacs' very capable hands.
+
+It's almost impossible to conceive of a personal productivity system without the
+employment of a list of todos. Emacs' org-mode is an environment well suited for
+this task.(A comprehensive description of which would be too long for this post,
+[[http://orgmode.org/manual/index.html][try here]]). In a nutshell, org-mode is a 'major mode' in emacs, a module of
+functionality often used to handle the editing environment of a particular
+filetype e.g. '.js','.clj','.org'. 'Org' is a file format, similar to Markdown,
+focused on outlining hierarchical lists with some ASCII based rich text included
+(tables!). Org-mode has some built in features for keeping track of todos and
+related scheduling information (among other things). I also use org-habits for
+habit tracking and org-agenda to get various time-based views and filters
+applied onto my list of todos. Nothing too complicated; a system heavily
+inspired by David Allen's GTD but on a platform with nigh infinite extensibility
+if/when necessary in the future to either capture new (types) of todos or
+associated infos and/or to process the accumulation of completed todos and logs
+to gain further insight into the effectiveness of the system.
+
+One problem though is that the experience is more or less locked down to my
+laptop. Were it convenient I would run emacs on my phone but in the meantime
+I've been faced with a disruption in my productivity work-flow particularly
+around capturing todos/notes on the fly, logging habits in real-time, and
+viewing my daily agenda on the go.
+
+The only system that ever worked for me in that regards was when years ago I
+would keep my GTD system in a [[http://www.checkettsweb.com/tw/gtd_tiddlywiki.htm][GTDTiddlyWiki]] and periodically hard-print the
+system into a stack of index cards I could keep in my back pocket. Worked great
+until I lost that stack of index cards enough times so as to loose the
+psychological benefits of the system.
+
+I'm aware of [[http://mobileorg.github.io/][mobileOrg]] and have tried to use it with my personal system. I don't
+want to speak ill of the developers of that app or their product, in part it's
+inspired this work, but it just didn't fit as I would've wanted it to. My
+work-flow relies heavily on capture, habits, and agenda. Further I'm a visual
+guy, I like to see the data represented as fancy graphics. After probably like a
+decade of search for a workable computer based integrated desktop + mobile
+productivity solution, including a couple of years trying different iOS text
+editing apps to serve as the mobile component([[http://omz-software.com/editorial/][another]] of which has inspired me
+recently), I have committed to creating a solution to satisfy my needs:
+
+*MobileOrg:Too*
+
+Speaking of control; when I drive, I like to drive stick. When I compute I like
+to run Linux. Heretofore I've been /a little/ classed out of iOS development.
+The equation of my personal interest in developing for that platform divided by
+the barrier to entry until recently was greater than what I was willing to
+engage with. React->React-Native->[[https://expo.io/][Expo]] has really opened the door to exploring
+the development of applications for mobile platforms without the need of a local
+XCode enabled environment or an Apple Developer credential(at least for initial
+phases). Using these tools, I've recently achieved a very initial version of the
+app and having done so am committing to documenting some of the further progress
+of the development of this application here.
+
+I was about to put up screenshots but I'm too embarrassed. If you want to check
+it out find the published project on expo [[https://expo.io/@fusupo/mobile-org-too][here]] (source [[https://github.com/fusupo/mobile-org-too][here]]). Upon opening
+you'll be asked to log into drop box (we don't save passwords or tokens, yet).
+Asked to give mobile-org-too access to your Dropbox account. You'll then be
+asked for an inbox org-file relative to your Dropbox root. (I have an 'org'
+directory at the root of my Dropbox folder where I keep my org files so I enter
+'/org/inbox.org' where 'inbox.org' is an actual org file in that directory). If
+everything goes well, the inbox inputText should be bordered in green and the
+app will have loaded and parsed your inbox org entries. You can browse/edit/add
+org-entries on the leftmost tab, view and log-completed habits and agenda items
+on the second-from-left tab. Constructive feedback embraced.
+
+A lose list of current application features:
+
+- Dropbox login
+  - using WebView to hit Dropbox auth target url, not currently saving the auth
+    token between sessions but might still in the future.
+- Home Screen
+  - Lists the contents of the chosen 'inbox' org file (as described in settings below)
+  - provides a button to add a new blank todo entry which is inserted as the
+    last top-level headline of the inbox file
+  - provides ability to press an element headline to view/edit element details
+  - provides ability to expand/collapse display of an entries children much like
+    the use of the <TAB> key in emacs org-mode proper.
+  - details screen also activated/navigated to when new node is created
+- Details screen
+  - split into two sections:
+  - details proper
+    - Todo keyword. The pressing of which deploys a popup to add/edit/remove
+      current headline keyword
+    - the entry headline, edited through inputText
+    - a section containing the various timestamps (scheduled, deadline, and a
+      personally defined 'opened' which may be removed in the future)
+      - allows definition of date with native date-picker
+      - allows ability to define the timestamp repeat interval
+      - also ability to clear the timestamp definition entirely
+    - a section containing the elements of the entries prop drawer if any
+      - allows for CRUD operations on the key value pairs in the prop drawer, however:
+      - disallows re-description of the key once that has been set
+    - a section containing the various logbook items
+      - at the moment assumes each log entry will either be the logging of a
+        state transition, or a log-note as defined through the C-c C-z workflow
+      - allows CRUD operations on the later type of entry, the state transition
+        log entries are read-only but otherwise delete-able
+    - editable textfield containing the body text
+  - lower scrollView which displays the focused entries children in a list/tree
+    re-using components from the Home Screen
+- Calendar Screen
+  - also split into two sections:
+  - Agenda View
+    - lists, in chronological order, todos (currently only with "scheduled"
+      properties) against a couple of delimiters for selected hours of the day,
+      including 'now' (essentially recreating org-agendas 2day agenda view in
+      app)
+  - Habits
+    - displays a 21 day habit graph
+    - pressing on an item registers that Item as having been completed
+      - inserts a state transition log entry in the associated todo
+      - also advances the 'scheduled' and 'last repeat' timestamps for the
+        entry, respecting the repeat interval definition of the habit
+- Settings Screen
+  - Choice of inbox.org file
+    - validates that path can be found and that path is a file on inputText blur
+    - using [[https://docs.expo.io/versions/latest/sdk/securestore.html][Expo.SecureStore]] to store user preferences   
+  - Dropbox uploading 
+  - "parsing" of (subset) org text document into a custom POJO based representation
+  - later serialization of our JS object structure back to plain text org file
+    - at the moment of this writing, enforces some, perhaps, non-standard
+      indentation rules, this may change
