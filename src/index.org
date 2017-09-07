@@ -4,4 +4,5 @@
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: post-list
   :END:
+- [[file:posts/mobileorg-too.org][MobileOrg:Too]] [2017-09-06 Wed] 
 - [[file:posts/buyer_beware.org][Buyer Beware]] [2017-08-04 Fri] 
